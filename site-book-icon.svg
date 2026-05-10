@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Stack of books">
+  <defs>
+    <linearGradient id="greenTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ad66e"/>
+      <stop offset="1" stop-color="#1d9f48"/>
+    </linearGradient>
+    <linearGradient id="greenSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f8a3c"/>
+      <stop offset="1" stop-color="#0b6630"/>
+    </linearGradient>
+    <linearGradient id="redTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a5f"/>
+      <stop offset="1" stop-color="#d93f34"/>
+    </linearGradient>
+    <linearGradient id="redSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#be2f33"/>
+      <stop offset="1" stop-color="#8f2024"/>
+    </linearGradient>
+    <linearGradient id="blueTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6c8cff"/>
+      <stop offset="1" stop-color="#3652c7"/>
+    </linearGradient>
+    <linearGradient id="blueSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#273e9d"/>
+      <stop offset="1" stop-color="#1d2e77"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0c1a12" flood-opacity=".25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(4 58) rotate(-11 60 18)">
+      <path d="M6 10 28 0h74l14 10-22 10H20z" fill="url(#blueTop)" stroke="#f3f5ff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M6 10v17l14 9V19z" fill="url(#blueSide)"/>
+      <path d="M20 19h74v17H20z" fill="#ffffff"/>
+      <path d="M94 19 116 10v17l-22 9z" fill="#dae1ff"/>
+      <path d="M24 24h66" stroke="#d6dbea" stroke-width="2"/>
+      <path d="M24 29h66" stroke="#d6dbea" stroke-width="2"/>
+      <path d="M24 34h66" stroke="#d6dbea" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(14 34) rotate(5 52 20)">
+      <path d="M6 10 26 0h66l16 10-20 10H20z" fill="url(#redTop)" stroke="#fff4f2" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M6 10v17l14 9V19z" fill="url(#redSide)"/>
+      <path d="M20 19h68v17H20z" fill="#ffffff"/>
+      <path d="M88 19 108 10v17l-20 9z" fill="#f4d7d4"/>
+      <path d="M24 24h60" stroke="#d8d8d8" stroke-width="2"/>
+      <path d="M24 29h60" stroke="#d8d8d8" stroke-width="2"/>
+      <path d="M24 34h60" stroke="#d8d8d8" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(18 8) rotate(10 54 24)">
+      <path d="M6 12 30 0h66l18 12-24 11H19z" fill="url(#greenTop)" stroke="#f5fff6" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M6 12v18l13 10V21z" fill="url(#greenSide)"/>
+      <path d="M19 21h71v18H19z" fill="#ffffff"/>
+      <path d="M90 21 114 12v18l-24 9z" fill="#dfe5de"/>
+      <path d="M23 26h63" stroke="#d8d8d8" stroke-width="2"/>
+      <path d="M23 31h63" stroke="#d8d8d8" stroke-width="2"/>
+      <path d="M23 36h63" stroke="#d8d8d8" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
